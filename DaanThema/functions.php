@@ -1,13 +1,14 @@
 <?php
 
-//laad stijlbladen
+//laad stijlbladen en scripts
 
-function laadstijlblad() {
+function laadstijlbladenScripts() {
     wp_enqueue_style( 'stijl', get_stylesheet_uri() );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css');
+    wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array ( 'jquery' ), 1.5, true);
 }
 
-add_action('init', 'laadstijlblad');
+add_action('init', 'laadstijlbladenScripts');
 
 // menu registreren
 
