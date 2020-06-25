@@ -21,6 +21,13 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+.logo-daan {
+    mix-blend-mode: screen;
+}
+.form-control {
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
 .jumbotron {
     background-size: cover;
     background-position: center center;
@@ -76,3 +83,4 @@ body{
 .post-categories {
     list-style-type: none;
 }
+
