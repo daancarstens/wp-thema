@@ -14,6 +14,14 @@
                      <?php the_author(); ?><br>
                      op: <?php the_time('j F Y'); ?>
                      in: <?php the_category(); ?>
+                     met als tags: <?php  
+                     $voor = " ";
+                     $sep = " | ";
+                     $na = " ";
+                     $id = " ";
+                     $tag_list = get_the_tag_list( $before, $sep, $na, $id );
+                     echo $tag_list;
+                     ?>
                      <hr>
                      <?php $vorig_bericht = get_previous_post(); 
                      if ( !empty( $vorig_bericht )) : ?> vorig bericht <br>
