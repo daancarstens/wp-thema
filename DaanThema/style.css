@@ -17,6 +17,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body{
     font-family: sans-serif;
     background: bisque;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 .jumbotron {
     background-size: cover;
@@ -31,6 +34,10 @@ body{
 .jumbotron a:hover {
     color: white;
     text-decoration: underline;
+}
+
+.jumbotron, h1, h2, h3, h5, .navbar-brand {
+    font-family: 'Dosis';
 }
 
 /* validatie-icons */
@@ -53,4 +60,15 @@ body{
 }
 .widget-footer-titel {
     font-size: 1.2rem;
+}
+
+.widget-aside {
+    padding: 2em 1em 2em 1em;
+    border-bottom: 1px solid grey;
+}
+.widget-titel {
+    font-size: .7;
+}
+.screen-reader-text {
+    display: none;
 }

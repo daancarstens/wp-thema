@@ -28,6 +28,9 @@
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );
         ?>
+        <a href="<?php echo home_url(); ?>">
+        <img src="<?php echo get_template_directory_uri() . '/img/OctaneLogo.png' ?>" alt="Logo Daan">
+        </a>
     </div>
 </nav>
    <div class="jumbotron" style="background-image: url(<?php echo get_template_directory_uri() . '/img/widebastion.jpg' ?>);" >

@@ -19,7 +19,7 @@
          <?php endif ?>
       </main>
 
-      <aside class="col-md-4 bg-light">
+      <aside class="col-md-4 bg-light p-4">
             <?php dynamic_sidebar('aside'); ?>
       </aside>
    </div>
