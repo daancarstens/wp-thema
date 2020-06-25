@@ -10,14 +10,6 @@
              while( have_posts()) : the_post(); ?>
          <h3><?php the_title(); ?></h3>
          <div> <?php the_content(); ?> </div>
-         <hr>
-         <div class="bg-light p-4">
-            <?php 
-               if ( comments_open() || get_comments_number() ) :
-                  comments_template();
-               endif;
-            ?>
-         </div>
 
 
          <?php  
