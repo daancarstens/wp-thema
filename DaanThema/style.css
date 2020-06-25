@@ -72,3 +72,7 @@ body{
 .screen-reader-text {
     display: none;
 }
+
+.post-categories {
+    list-style-type: none;
+}
