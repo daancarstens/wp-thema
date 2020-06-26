@@ -29,7 +29,7 @@
         ) );
         ?>
 
-<form role="search" method="get" id="searchform" class="form-inline my-2 my-lg-0" action="http://localhost/wpdaan/">
+<form role="search" method="get" id="searchform" class="form-inline my-2 my-lg-0" action="http://28462.hosts2.ma-cloud.nl/bewijzenmap/periode1.4/wptraining/">
 <div>
    <label class="screen-reader-text" for="s">Zoeken naar:</label>
    <input class="form-control mr-sm-2" type="search" placeholder="Zoeken..." aria-label="Zoeken" value="" name="s" id="s" />

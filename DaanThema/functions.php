@@ -17,7 +17,7 @@ function registreer_menu()  {
     $argumenten = array(
         'hoofd-menu' => __( 'Hoofd menu ')
     );
-    register_nav_menus();
+    register_nav_menus($argumenten);
 }
 add_action('init', 'registreer_menu');
 
